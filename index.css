@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(244, 243, 243);
+    height: 100vh;
+}
+.c{
+    border: 1px solid rgb(239, 229, 229);
+    background-color: rgb(255, 254, 253);
+    margin: auto;
+    width: 345px;
+    padding: 30px;
+    height: 360px;
+    padding-left: 50px;
+    margin-top: 10px;
+    box-shadow: 10px 5px 10px 0px rgb(181, 180, 180) ;
+}
+form{
+    margin-top: 15px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 249, 249);
+    background-color: rgb(228, 224, 224);
+    color: rgb(51, 46, 46);
+}
+#name ,#pass ,#dob,#email{
+    width: 180px;
+}
+button{
+    background-color: rgb(31, 218, 31);
+    border: 1px solid rgb(31, 218, 31) ;
+    color: aliceblue;
+    padding: 16px;
+    border-radius: 5px;
+}
