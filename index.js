@@ -31,9 +31,9 @@ const saveUserForm = (event) => {
 	event.preventDefault();
 	const name = document.getElementById("name").value;
 	const email = document.getElementById("email").value;
-	const password = document.getElementById("pass").value;
+	const password = document.getElementById("password").value;
 	const dob = document.getElementById("dob").value;
-	const TandC = document.getElementById("ac").checked;
+	const TandC = document.getElementById("acceptTerms").checked;
 	const age = calculateAge(new Date(dob));
 	console.log(name)
 	console.log(email)
